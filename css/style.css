@@ -6,7 +6,6 @@
 
 .container_header{
     max-width: 2100px;
-    height: 50px;
 }
 
 .container_main{
@@ -16,7 +15,6 @@
     display: flex;
     justify-content: space-around;
     width: 75%;
-    height: 100%;
     margin: 0 auto;
 }
 
@@ -24,7 +22,6 @@
     display: flex;
     justify-content: space-around;
     width: 75%;
-    height: 100%;
     margin: 0 auto;
     flex-wrap: wrap;
 }
@@ -38,8 +35,12 @@
 }
 
 .col33_main{
-    width: calc(100% / 3 - 10px);
-    margin: 5px;
+    width: calc(100% / 3 - 20px);
+    margin: 30px 10px
+}
+
+.col50{
+    width: 50%;
 }
 
 .style_text{
@@ -73,7 +74,7 @@
 }
 
 #sostenibilità2{
-    left:0;
+    left: 0;
 
 }
 
@@ -114,8 +115,8 @@
 .color_red {
     color: red;
 }
-.bg_orange{
-    background-color: orange;
+.bg_header{
+    background-color: rgb(255, 105, 0)
 }
 
 .bg_blue{
@@ -125,8 +126,28 @@
 .bg_red{
     background-color: red;
 }
+
+.bg_black{
+    background-color: black;
+}
 .d-flex{
     display: flex;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.padding-15{
+    padding: 15px;
+}
+
+.text-align_right{
+    text-align: right;
+}
+
+.margin-left_5{
+    margin-left: 5px;
 }
 
 ul {
@@ -160,9 +181,11 @@ li{
     background-image: url(../img/boolean-logo.png);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center center;
     height: 30%;
     width: 30%;
     align-self: center;
+    
 }
 
 .img1 {
